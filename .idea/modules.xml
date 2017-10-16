@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/extracting-response-api/extracting-response-api.iml" filepath="$PROJECT_DIR$/extracting-response-api/extracting-response-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logging-api-request-response/logging-api-request-response.iml" filepath="$PROJECT_DIR$/logging-api-request-response/logging-api-request-response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-api-tests.iml" filepath="$PROJECT_DIR$/rest-api-tests.iml" />
+    </modules>
+  </component>
+</project>
