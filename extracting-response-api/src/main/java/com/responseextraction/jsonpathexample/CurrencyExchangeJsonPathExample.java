@@ -1,4 +1,4 @@
-package com.jsonpathexample;
+package com.responseextraction.jsonpathexample;
 
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.path.json.JsonPath;

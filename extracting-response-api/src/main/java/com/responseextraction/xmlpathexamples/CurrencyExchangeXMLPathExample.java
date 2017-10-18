@@ -1,4 +1,4 @@
-package com.xmlpathexamples;
+package com.responseextraction.xmlpathexamples;
 
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.internal.path.xml.NodeChildrenImpl;
