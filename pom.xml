@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>extracting-response-api</module>
+        <module>paypal-api-tests</module>
     </modules>
     <packaging>pom</packaging>
 

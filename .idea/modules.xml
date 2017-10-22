@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/extracting-response-api/extracting-response-api.iml" filepath="$PROJECT_DIR$/extracting-response-api/extracting-response-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/logging-api-request-response/logging-api-request-response.iml" filepath="$PROJECT_DIR$/logging-api-request-response/logging-api-request-response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paypal-api-tests/paypal-api-tests.iml" filepath="$PROJECT_DIR$/paypal-api-tests/paypal-api-tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest-api-tests.iml" filepath="$PROJECT_DIR$/rest-api-tests.iml" />
     </modules>
   </component>
