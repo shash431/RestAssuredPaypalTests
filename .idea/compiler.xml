@@ -25,6 +25,7 @@
         <module name="extracting-response-api" />
         <module name="logging-api-request-response" />
         <module name="paypal-api-tests" />
+        <module name="twitter-api-tests" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +33,7 @@
       <module name="logging-api-request-response" target="1.5" />
       <module name="paypal-api-tests" target="1.5" />
       <module name="rest-api-tests" target="1.5" />
+      <module name="twitter-api-tests" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

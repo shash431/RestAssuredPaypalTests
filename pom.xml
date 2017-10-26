@@ -10,6 +10,7 @@
     <modules>
         <module>extracting-response-api</module>
         <module>paypal-api-tests</module>
+        <module>twitter-api-tests</module>
     </modules>
     <packaging>pom</packaging>
 
