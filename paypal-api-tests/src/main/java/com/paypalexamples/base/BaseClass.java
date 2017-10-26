@@ -10,8 +10,8 @@ import static com.jayway.restassured.RestAssured.given;
 public class BaseClass {
 
     protected static String accessToken;
-    private static final String clientID = "AXLvH3rW_K_h7nRmQk94Rg67r1lHONRQSyjn1PLWP7moSsIaUZPY_MLZs72b6iw7WYCfT83uDGKz9KGC";
-    private static final String clientSecret = "EGF6zg8g9wVE5aOnjqb1Ux2vQr0jv8InDFwtQMv5BXNrXk7La8cdB8xkHpyXTsE1bSDkZdDgreOfr5xW";
+    private static final String clientID = "";
+    private static final String clientSecret = "";
 
     @BeforeClass
     public static void init() {
