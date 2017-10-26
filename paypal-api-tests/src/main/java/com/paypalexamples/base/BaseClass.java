@@ -1,11 +1,12 @@
 package com.paypalexamples.base;
 
-import com.jayway.restassured.RestAssured;
-import com.jayway.restassured.path.json.JsonPath;
-import com.jayway.restassured.response.Response;
+import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 import org.junit.BeforeClass;
 
-import static com.jayway.restassured.RestAssured.given;
+import static io.restassured.RestAssured.given;
+
 
 public class BaseClass {
 

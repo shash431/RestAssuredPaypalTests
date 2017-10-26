@@ -1,10 +1,11 @@
 package com.student.test;
 
-import com.jayway.restassured.response.Response;
 import com.student.base.TestBase;
+import io.restassured.response.Response;
 import org.junit.Test;
 
-import static com.jayway.restassured.RestAssured.given;
+import static io.restassured.RestAssured.given;
+
 
 public class StudentGetTest extends TestBase {
 

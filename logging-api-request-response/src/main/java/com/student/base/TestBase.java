@@ -1,6 +1,6 @@
 package com.student.base;
 
-import com.jayway.restassured.RestAssured;
+import io.restassured.RestAssured;
 import org.junit.BeforeClass;
 
 public class TestBase {

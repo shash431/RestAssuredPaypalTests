@@ -1,11 +1,11 @@
 package com.responseextraction.xmlpathexamples;
 
-import com.jayway.restassured.RestAssured;
-import com.jayway.restassured.internal.path.xml.NodeChildrenImpl;
+import io.restassured.RestAssured;
+import io.restassured.internal.path.xml.NodeChildrenImpl;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static com.jayway.restassured.RestAssured.given;
+import static io.restassured.RestAssured.given;
 
 
 public class CurrencyExchangeXMLPathExample {

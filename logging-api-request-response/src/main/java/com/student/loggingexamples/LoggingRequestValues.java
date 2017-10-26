@@ -1,13 +1,13 @@
 package com.student.loggingexamples;
 
-import com.jayway.restassured.http.ContentType;
 import com.student.base.TestBase;
 import com.student.model.Student;
+import io.restassured.http.ContentType;
 import org.junit.Test;
 
 import java.util.ArrayList;
 
-import static com.jayway.restassured.RestAssured.given;
+import static io.restassured.RestAssured.given;
 
 public class LoggingRequestValues extends TestBase {
 

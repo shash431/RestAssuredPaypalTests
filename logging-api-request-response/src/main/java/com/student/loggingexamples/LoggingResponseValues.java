@@ -3,7 +3,7 @@ package com.student.loggingexamples;
 import com.student.base.TestBase;
 import org.junit.Test;
 
-import static com.jayway.restassured.RestAssured.given;
+import static io.restassured.RestAssured.given;
 
 public class LoggingResponseValues extends TestBase {
 

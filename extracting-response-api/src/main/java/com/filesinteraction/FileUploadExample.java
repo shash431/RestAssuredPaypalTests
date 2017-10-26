@@ -4,7 +4,8 @@ import org.junit.Test;
 
 import java.io.File;
 
-import static com.jayway.restassured.RestAssured.given;
+import static io.restassured.RestAssured.given;
+
 
 public class FileUploadExample {
 
