@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/extracting-response-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logging-api-request-response" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paypal-api-tests" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/serenitybdd-api-tests" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/twitter-api-tests" charset="UTF-8" />
   </component>
 </project>
