@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f88ca04-eb8b-4dab-876c-bfb6976672fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serenitybdd-api-tests/src/main/java/com/studentapp/model/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/StudentsCRUDTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/testbase/TestBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/utils/TestUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/cucumber/serenity/StudentSerenitySteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenitybdd-api-tests/serenity.properties" afterPath="$PROJECT_DIR$/serenitybdd-api-tests/serenity.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/FirstSerenityTest.java" afterPath="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/FirstSerenityTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/StudentsCRUDTests.java" afterPath="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/StudentsCRUDTests.java" />
     </list>
     <ignored path="rest-api-tests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,19 +44,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="serenity.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/serenity.properties">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,8 +71,8 @@
       <file leaf-file-name="StudentsCRUDTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/StudentsCRUDTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="-396">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,12 +80,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/utils/TestUtil.java">
+      <file leaf-file-name="StudentSerenitySteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/cucumber/serenity/StudentSerenitySteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="77">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,8 +95,8 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/main/java/com/studentapp/model/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="264">
+              <caret line="27" column="106" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="106" />
               <folding />
             </state>
           </provider>
@@ -200,6 +185,7 @@
         <option value="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/FirstSerenityTest.java" />
         <option value="$PROJECT_DIR$/serenitybdd-api-tests/src/main/java/com/studentapp/model/Student.java" />
         <option value="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/utils/TestUtil.java" />
+        <option value="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/cucumber/serenity/StudentSerenitySteps.java" />
         <option value="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/StudentsCRUDTests.java" />
       </list>
     </option>
@@ -535,6 +521,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studentapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serenity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest-api-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest-api-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serenitybdd-api-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -735,59 +763,7 @@
       <recent name="D:\training\SoftUni\Automation\RestAssured\rest-api-tests\logging-api-request-response\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudentsCRUDTests">
-    <configuration default="false" name="TwitterTest.createTweet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="twitterexample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="twitter-api-tests" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="twitterexample" />
-      <option name="MAIN_CLASS_NAME" value="twitterexample.TwitterTest" />
-      <option name="METHOD_NAME" value="createTweet" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TwitterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="twitterexample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="twitter-api-tests" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="twitterexample" />
-      <option name="MAIN_CLASS_NAME" value="twitterexample.TwitterTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.StudentsCRUDTests.test001">
     <configuration default="false" name="TwitterTest.getTweet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -854,6 +830,58 @@
       <option name="MAIN_CLASS_NAME" value="com.studentapp.junit.StudentsCRUDTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StudentsCRUDTests.verifyIfTheStudentWasAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.studentapp.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="serenitybdd-api-tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.studentapp.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.studentapp.junit.StudentsCRUDTests" />
+      <option name="METHOD_NAME" value="verifyIfTheStudentWasAdded" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StudentsCRUDTests.test001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.studentapp.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="serenitybdd-api-tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.studentapp.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.studentapp.junit.StudentsCRUDTests" />
+      <option name="METHOD_NAME" value="test001" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1179,19 +1207,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Maven.Student App Serenity Configuration" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TwitterTest.createTweet" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TwitterTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TwitterTest.getTweet" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FirstSerenityTest.getAllStudents" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.StudentsCRUDTests" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TwitterTest.getTweet" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FirstSerenityTest.getAllStudents" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StudentsCRUDTests" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StudentsCRUDTests.verifyIfTheStudentWasAdded" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.StudentsCRUDTests.test001" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StudentsCRUDTests" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FirstSerenityTest.getAllStudents" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TwitterTest.getTweet" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TwitterTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TwitterTest.createTweet" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StudentsCRUDTests.test001" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StudentsCRUDTests" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StudentsCRUDTests.verifyIfTheStudentWasAdded" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FirstSerenityTest.getAllStudents" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TwitterTest.getTweet" />
       </list>
     </recent_temporary>
   </component>
@@ -1209,40 +1237,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PostAsObject - 2017.10.25 at 14h 14m 18s.xml">
-      <configuration name="PostAsObject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentsCRUDTests - 2017.10.29 at 12h 09m 18s.xml">
+    <history-entry file="StudentsCRUDTests - 2017.10.29 at 21h 08m 12s.xml">
       <configuration name="StudentsCRUDTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentsCRUDTests - 2017.10.29 at 12h 10m 13s.xml">
+    <history-entry file="StudentsCRUDTests - 2017.10.29 at 21h 10m 36s.xml">
       <configuration name="StudentsCRUDTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentsCRUDTests - 2017.10.29 at 12h 17m 02s.xml">
+    <history-entry file="StudentsCRUDTests - 2017.10.29 at 21h 12m 11s.xml">
       <configuration name="StudentsCRUDTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwitterTest - 2017.10.26 at 13h 25m 31s.xml">
-      <configuration name="TwitterTest" configurationId="JUnit" />
+    <history-entry file="StudentsCRUDTests - 2017.10.29 at 21h 14m 00s.xml">
+      <configuration name="StudentsCRUDTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwitterTest - 2017.10.26 at 13h 27m 10s.xml">
-      <configuration name="TwitterTest" configurationId="JUnit" />
+    <history-entry file="StudentsCRUDTests - 2017.10.29 at 21h 14m 12s.xml">
+      <configuration name="StudentsCRUDTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwitterTest - 2017.10.26 at 13h 39m 38s.xml">
-      <configuration name="TwitterTest" configurationId="JUnit" />
+    <history-entry file="StudentsCRUDTests - 2017.10.29 at 21h 15m 09s.xml">
+      <configuration name="StudentsCRUDTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwitterTest_createTweet - 2017.10.26 at 13h 20m 37s.xml">
-      <configuration name="TwitterTest.createTweet" configurationId="JUnit" />
+    <history-entry file="StudentsCRUDTests - 2017.10.29 at 21h 17m 55s.xml">
+      <configuration name="StudentsCRUDTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwitterTest_createTweet - 2017.10.26 at 13h 24m 40s.xml">
-      <configuration name="TwitterTest.createTweet" configurationId="JUnit" />
+    <history-entry file="StudentsCRUDTests - 2017.10.29 at 21h 32m 23s.xml">
+      <configuration name="StudentsCRUDTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwitterTest_getTweet - 2017.10.26 at 14h 04m 40s.xml">
-      <configuration name="TwitterTest.getTweet" configurationId="JUnit" />
+    <history-entry file="StudentsCRUDTests_test001 - 2017.10.29 at 21h 51m 20s.xml">
+      <configuration name="StudentsCRUDTests.test001" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentsCRUDTests_test001 - 2017.10.29 at 21h 51m 46s.xml">
+      <configuration name="StudentsCRUDTests.test001" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1030" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1251,7 +1279,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17157894" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3523256" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3523256" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1261,7 +1289,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45581394" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1283,7 +1311,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/StudentsCRUDTests.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/StudentsCRUDTests.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1291,27 +1335,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rest-api-tests.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.9.0/rest-assured-2.9.0-sources.jar!/com/jayway/restassured/RestAssured.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="649" column="39" selection-start-line="649" selection-start-column="39" selection-end-line="649" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar!/org/hamcrest/CoreMatchers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="279" column="72" selection-start-line="279" selection-start-column="72" selection-end-line="279" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -1646,6 +1669,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/utils/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/FirstSerenityTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1658,26 +1689,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/main/java/com/studentapp/model/Student.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="145">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#1657#1658#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/utils/TestUtil.java">
+    <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/main/java/com/studentapp/model/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="264">
+          <caret line="27" column="106" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="106" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/cucumber/serenity/StudentSerenitySteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/StudentsCRUDTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="-396">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
