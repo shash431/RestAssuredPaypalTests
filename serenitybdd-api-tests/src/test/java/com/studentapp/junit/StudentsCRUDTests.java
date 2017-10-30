@@ -45,18 +45,7 @@ public class StudentsCRUDTests extends TestBase{
                 .statusCode(201);
 
 
-        String p1 = "findAll{it.firstName=='";
-        String p2 = "'}.get(0)";
-
-        HashMap<String, Object> value = SerenityRest.rest().given()
-                .when()
-                .get("/list")
-                .then()
-                .log()
-                .all()
-                .statusCode(200)
-                .extract()
-                .path(p1 + firstName + p2);
+        HashMap<String, Object> value = steps.getStudentByFirstName(firstName);
 
         System.out.println("The value is" + value);
 
