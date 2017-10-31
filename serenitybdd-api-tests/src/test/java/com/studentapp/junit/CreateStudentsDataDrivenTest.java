@@ -2,7 +2,7 @@ package com.studentapp.junit;
 
 import com.studentapp.cucumber.serenity.StudentSerenitySteps;
 import com.studentapp.testbase.TestBase;
-import net.serenitybdd.junit.runners.SerenityRunner;
+import net.serenitybdd.junit.runners.SerenityParameterizedRunner;
 import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.annotations.Title;
 import net.thucydides.junit.annotations.UseTestDataFrom;
@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 
 @UseTestDataFrom("testdata/studentinfo.csv")
-@RunWith(SerenityRunner.class)
+@RunWith(SerenityParameterizedRunner.class)
 public class CreateStudentsDataDrivenTest extends TestBase {
 
     private String firstName;
@@ -21,20 +21,6 @@ public class CreateStudentsDataDrivenTest extends TestBase {
     private String email;
     private String programme;
     private String course;
-
-    @Steps
-    StudentSerenitySteps steps;
-
-    @Title("Data driven test for adding Multiple students to the student app")
-    @Test
-    public void createMultipleStudents() {
-        ArrayList<String> courses = new ArrayList<>();
-        courses.add(course);
-
-        StudentSerenitySteps steps = new StudentSerenitySteps();
-
-        steps.createStudent(firstName, lastName, email, programme, courses);
-    }
 
     public String getFirstName() {
         return firstName;
@@ -74,5 +60,20 @@ public class CreateStudentsDataDrivenTest extends TestBase {
 
     public void setCourse(String course) {
         this.course = course;
+    }
+
+
+    @Steps
+    StudentSerenitySteps steps;
+
+    @Title("Data driven test for adding Multiple students to the student app")
+    @Test
+    public void createMultipleStudents() {
+        ArrayList<String> courses = new ArrayList<>();
+        courses.add(course);
+
+        StudentSerenitySteps steps = new StudentSerenitySteps();
+
+        steps.createStudent(firstName, lastName, email, programme, courses);
     }
 }
