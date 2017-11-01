@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9f88ca04-eb8b-4dab-876c-bfb6976672fd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/CreateStudentsDataDrivenTest.java" afterPath="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/CreateStudentsDataDrivenTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenitybdd-api-tests/pom.xml" afterPath="$PROJECT_DIR$/serenitybdd-api-tests/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenitybdd-api-tests/src/main/resources/testdata/studentinfo.csv" afterPath="$PROJECT_DIR$/serenitybdd-api-tests/src/main/resources/testdata/studentinfo.csv" />
     </list>
     <ignored path="rest-api-tests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateStudentsDataDrivenTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreateStudentsDataDrivenTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/CreateStudentsDataDrivenTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="194">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#763#764#0" expanded="true" />
@@ -84,11 +85,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="148" column="21" selection-start-line="123" selection-start-column="12" selection-end-line="148" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="studentinfo.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/main/resources/testdata/studentinfo.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="17" />
+            <state relative-caret-position="2200">
+              <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -201,7 +215,6 @@
         <option value="$PROJECT_DIR$/twitter-api-tests/pom.xml" />
         <option value="$PROJECT_DIR$/twitter-api-tests/src/main/java/twitterexample/TwitterTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/serenitybdd-api-tests/pom.xml" />
         <option value="$PROJECT_DIR$/serenitybdd-api-tests/serenity.properties" />
         <option value="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/testbase/TestBase.java" />
         <option value="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/FirstSerenityTest.java" />
@@ -212,6 +225,7 @@
         <option value="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/cucumber/serenity/StudentSerenitySteps.java" />
         <option value="$PROJECT_DIR$/serenitybdd-api-tests/src/main/resources/testdata/studentinfo.csv" />
         <option value="$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/CreateStudentsDataDrivenTest.java" />
+        <option value="$PROJECT_DIR$/serenitybdd-api-tests/pom.xml" />
       </list>
     </option>
   </component>
@@ -1162,16 +1176,16 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateStudentsDataDrivenTest - 2017.10.30 at 16h 38m 08s.xml">
-      <configuration name="CreateStudentsDataDrivenTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CreateStudentsDataDrivenTest - 2017.10.30 at 16h 38m 19s.xml">
-      <configuration name="CreateStudentsDataDrivenTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CreateStudentsDataDrivenTest - 2017.10.30 at 16h 42m 55s.xml">
-      <configuration name="CreateStudentsDataDrivenTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CreateStudentsDataDrivenTest - 2017.10.31 at 14h 08m 24s.xml">
+      <configuration name="CreateStudentsDataDrivenTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateStudentsDataDrivenTest - 2017.10.31 at 14h 21m 09s.xml">
+      <configuration name="CreateStudentsDataDrivenTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateStudentsDataDrivenTest - 2017.10.31 at 14h 21m 13s.xml">
+      <configuration name="CreateStudentsDataDrivenTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateStudentsDataDrivenTest - 2017.10.31 at 14h 21m 36s.xml">
       <configuration name="CreateStudentsDataDrivenTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CreateStudentsDataDrivenTest_createMultipleStudents - 2017.10.30 at 16h 35m 50s.xml">
@@ -1194,7 +1208,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1204,7 +1218,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16979167" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35581395" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3556818" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1214,7 +1228,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45568183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45568183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1509,6 +1523,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40106">
           <caret line="1823" column="6" selection-start-line="1823" selection-start-column="6" selection-end-line="1823" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1524,17 +1539,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/testbase/TestBase.java">
@@ -1628,8 +1632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/main/resources/testdata/studentinfo.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="2200">
+          <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1661,8 +1665,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/src/test/java/com/studentapp/junit/CreateStudentsDataDrivenTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="194">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#763#764#0" expanded="true" />
@@ -1687,6 +1691,17 @@
             <element signature="e#1479#1480#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenitybdd-api-tests/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="148" column="21" selection-start-line="123" selection-start-column="12" selection-end-line="148" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
       </provider>
     </entry>
   </component>
