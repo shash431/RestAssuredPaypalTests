@@ -5,6 +5,10 @@ import com.student.model.Student;
 import io.restassured.http.ContentType;
 import org.junit.Test;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 
 import static io.restassured.RestAssured.given;
