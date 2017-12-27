@@ -5,8 +5,15 @@ import io.restassured.authentication.FormAuthConfig;
 import io.restassured.filter.session.SessionFilter;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
+import java.util.ArrayList;
+
+import static org.hamcrest.CoreMatchers.hasItem;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class JsoupExamplesWithLoggingIn {
 
@@ -30,8 +37,18 @@ public class JsoupExamplesWithLoggingIn {
                 get("/student/list").asString();
         Document document = Jsoup.parse(response);
 
-        System.out.println(document);
+        //getting all email IDs by using CSS selector
+        Elements emailIds = document.select("table tbody tr td:nth-child(4)");
+
+        System.err.println("The size of the table is: " + emailIds.size());
+
+        ArrayList<String> actualValue = new ArrayList<String>();
+        //printing all email ids
+        for(Element e : emailIds){
+            System.out.println(e.text());
+            actualValue.add(e.text());
+        }
+
+        assertThat(actualValue, hasItem("molestie@vitaesemper.ca"));
     }
-
-
 }

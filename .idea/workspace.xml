@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f88ca04-eb8b-4dab-876c-bfb6976672fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extracting-response-api/src/main/java/com/jsoup/JsoupExamplesWithLoggingIn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extracting-response-api/src/main/java/com/jsoup/JsoupExamplesWithoutLoggingIn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extracting-response-api/extracting-response-api.iml" afterPath="$PROJECT_DIR$/extracting-response-api/extracting-response-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extracting-response-api/pom.xml" afterPath="$PROJECT_DIR$/extracting-response-api/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logging-api-request-response/logging-api-request-response.iml" afterPath="$PROJECT_DIR$/logging-api-request-response/logging-api-request-response.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logging-api-request-response/pom.xml" afterPath="$PROJECT_DIR$/logging-api-request-response/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logging-api-request-response/src/main/java/com/student/loggingexamples/LoggingRequestValues.java" afterPath="$PROJECT_DIR$/logging-api-request-response/src/main/java/com/student/loggingexamples/LoggingRequestValues.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extracting-response-api/src/main/java/com/jsoup/JsoupExamplesWithLoggingIn.java" afterPath="$PROJECT_DIR$/extracting-response-api/src/main/java/com/jsoup/JsoupExamplesWithLoggingIn.java" />
     </list>
     <ignored path="rest-api-tests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,10 +101,11 @@
       <file leaf-file-name="JsoupExamplesWithLoggingIn.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/extracting-response-api/src/main/java/com/jsoup/JsoupExamplesWithLoggingIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1454#1462#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1290,16 +1284,19 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JsoupExamples - 2017.12.27 at 15h 51m 09s.xml">
-      <configuration name="JsoupExamples" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsoupExamples - 2017.12.27 at 15h 52m 12s.xml">
-      <configuration name="JsoupExamples" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsoupExamples - 2017.12.27 at 15h 54m 39s.xml">
-      <configuration name="JsoupExamples" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JsoupExamplesWithLoggingIn_extractingEmailInformation - 2017.12.27 at 16h 32m 56s.xml">
+      <configuration name="JsoupExamplesWithLoggingIn.extractingEmailInformation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsoupExamplesWithLoggingIn_extractingEmailInformation - 2017.12.27 at 16h 37m 02s.xml">
+      <configuration name="JsoupExamplesWithLoggingIn.extractingEmailInformation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsoupExamplesWithLoggingIn_extractingEmailInformation - 2017.12.27 at 16h 37m 25s.xml">
+      <configuration name="JsoupExamplesWithLoggingIn.extractingEmailInformation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsoupExamplesWithLoggingIn_extractingEmailInformation - 2017.12.27 at 16h 38m 23s.xml">
+      <configuration name="JsoupExamplesWithLoggingIn.extractingEmailInformation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsoupExamplesWithLoggingIn_extractingEmailInformation - 2017.12.27 at 16h 41m 02s.xml">
       <configuration name="JsoupExamplesWithLoggingIn.extractingEmailInformation" configurationId="JUnit" />
     </history-entry>
     <history-entry file="JsoupExamples_extractingElementsById - 2017.12.27 at 15h 57m 11s.xml">
@@ -1316,9 +1313,6 @@
     </history-entry>
     <history-entry file="JsoupExamples_extractingElementsById - 2017.12.27 at 16h 27m 14s.xml">
       <configuration name="JsoupExamples.extractingElementsById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsoupExamples_getTitle - 2017.12.27 at 15h 45m 56s.xml">
-      <configuration name="JsoupExamples.getTitle" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1836,10 +1830,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/extracting-response-api/src/main/java/com/jsoup/JsoupExamplesWithLoggingIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1454#1462#0" expanded="true" />
           </folding>
         </state>
       </provider>
